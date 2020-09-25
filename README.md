@@ -25,7 +25,6 @@ Install from source or get it from: https://xpack.github.io/openocd/install/
 
     cargo generate \
         --git https://github.com/antoinevg/hello-daisy \
-        --branch main \
         --name your-project-name
 
 ## Flash and run
