@@ -44,3 +44,8 @@ Install from source or get it from: https://xpack.github.io/openocd/install/
         # some programmers may need you to hit the reset button on the Daisy Seed at this point
 
         cargo run
+
+
+## Discussion
+
+https://forum.electro-smith.com/t/rust-starter-for-daisy-seed/
