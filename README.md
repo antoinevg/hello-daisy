@@ -45,6 +45,27 @@ Install from source or get it from: https://xpack.github.io/openocd/install/
 
         cargo run
 
+### ITM logging support (optional) 
+
+1. Enable the `"log-itm"` feature for the `daisy_bsp` create in `Cargo.toml`:
+
+    daisy_bsp = { version = "0.3.0", features = ["log-itm"]  }
+
+2. Edit the following files to enable ITM support:
+
+  * `openocd.cfg`
+  * `openocd.gdb`
+
+3. Then run:
+
+    touch /tmp/itm.fifo
+    itmdump -F -f /tmp/itm.fifo
+
+
+
+More information: https://github.com/stm32-rs/stm32h7xx-hal/blob/master/examples/ITM.md
+
+
 
 ## Discussion
 
