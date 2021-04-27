@@ -2,10 +2,10 @@
 name = "{{project-name}}"
 authors = ["{{authors}}"]
 edition = "2018"
-version = "0.3.0"
+version = "0.0.1"
 
 [dependencies]
 panic-halt = "0.2.0"
 cortex-m = "0.6.4"
 cortex-m-rt = { version = "0.6.13", features = ["device"] }
-daisy_bsp = { version = "0.3.0", features = ["seed"]  }
+daisy_bsp = { version = "0.4.1", features = ["seed"]  }
